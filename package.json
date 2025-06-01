@@ -1,0 +1,37 @@
+{
+  "name": "badges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --inspect=127.0.0.1:9270 -r dotenv/config --files ./src/index.ts",
+    "hml": "NODE_ENV=homolog ts-node-dev --inspect=127.0.0.1:9270 -r dotenv/config --files ./src/index.ts",
+    "prd": "NODE_ENV=prod ts-node-dev --inspect=127.0.0.1:9270 -r dotenv/config --files ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "ts-node-dev --respawn --transpile-only index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "@types/png-chunk-text": "^1.0.3",
+    "@types/png-chunks-encode": "^1.0.2",
+    "@types/png-chunks-extract": "^1.0.2",
+    "badges": "file:",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "png-chunk-text": "^1.0.0",
+    "png-chunks-encode": "^1.0.0",
+    "png-chunks-extract": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.29",
+    "prisma": "^6.8.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
