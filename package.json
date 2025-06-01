@@ -1,7 +1,7 @@
 {
   "name": "badges",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "ts-node-dev --inspect=127.0.0.1:9270 -r dotenv/config --files ./src/index.ts",
     "hml": "NODE_ENV=homolog ts-node-dev --inspect=127.0.0.1:9270 -r dotenv/config --files ./src/index.ts",
