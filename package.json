@@ -7,7 +7,7 @@
     "hml": "NODE_ENV=homolog ts-node-dev --inspect=127.0.0.1:9270 -r dotenv/config --files ./src/index.ts",
     "prd": "NODE_ENV=prod ts-node-dev --inspect=127.0.0.1:9270 -r dotenv/config --files ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "ts-node-dev --respawn --transpile-only index.ts"
+    "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts"
   },
   "author": "",
   "license": "ISC",

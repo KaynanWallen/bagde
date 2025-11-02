@@ -64,7 +64,7 @@ class BadgeController {
         "badge": `${process.env.API_URL}/badge/${badgeDemoRecord.uuid}`,
         "evidence": [],
         "id": `${process.env.API_URL}/badge-class/${badgeDemoRecord.uuid}`,
-        "issuedOn": "2022-10-01T11:46:52.000Z",
+        "issuedOn": "2025-06-01T20:09:31.310Z",
         "recipient": {
           "type": "email",
           "identity": badgeDemoRecord.recipientIdentify,
