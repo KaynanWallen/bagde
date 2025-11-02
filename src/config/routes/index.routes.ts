@@ -1,9 +1,10 @@
-import { Router } from "express";
-import badgeRouters from "./badges.routes";
+import { Router } from 'express';
 
 const router: Router = Router();
 
-router.use(badgeRouters);
+// Health check
+router.get('/health', (req, res) => {
+  res.json({ status: 'ok', message: 'Server is running' });
+});
 
 export default router;
-
